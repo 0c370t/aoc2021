@@ -44,6 +44,7 @@ function partTwo() {
             remaining = remaining.filter(f => f[i] === significant)
             i++;
         }
+        // 7928162
 
         console.log(remaining);
         if (remaining.length > 1) {
